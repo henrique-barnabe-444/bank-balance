@@ -23,4 +23,6 @@
 hs_err_pid*
 replay_pid*
 /What_Is_This.pdf
+/.idea
 /.idea/whitesource/IntellijUsageMetrics.txt
+/target
