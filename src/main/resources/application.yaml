@@ -1,9 +1,17 @@
 server:
   port: 8086
 
+
+
 spring:
   application:
     name: bankbalance
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+    datasource:
+      url: jdbc:h2:mem:bankdb
   datasource:
     url: jdbc:h2:mem:bankdb
     driverClassName: org.h2.Driver
