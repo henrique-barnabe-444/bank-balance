@@ -7,7 +7,7 @@ services:
       - AWS_DEFAULT_REGION=sa-east-1
       - AWS_ACCESS_KEY_ID=test
       - AWS_SECRET_ACCESS_KEY=test
-      - SERVICES=sqs
+      - SERVICES=sqs, secretsmanager
       - SKIP_SSL_CERT_DOWNLOAD=1
       - DISABLE_EVENTS=1
     ports:
